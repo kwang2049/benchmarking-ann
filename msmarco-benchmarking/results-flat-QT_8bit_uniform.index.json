@@ -1,0 +1,9 @@
+{
+    "batch size": 128,
+    "eval_string": "flat_sq('QT_8bit_uniform')",
+    "indexing (s)": 41.158671379089355,
+    "size (GB)": 6.324164711870253,
+    "retrieval (s)": 2349.3858234882355,
+    "per query (s)": 0.3365882268607787,
+    "mrr": 0.3442308523218266
+}

@@ -1,0 +1,9 @@
+{
+    "batch size": 128,
+    "eval_string": "flat_ivf('QT_8bit_uniform', 64, 32)",
+    "indexing (s)": 48.0038058757782,
+    "size (GB)": 6.390225104987621,
+    "retrieval (s)": 1240.0832118988037,
+    "per query (s)": 0.17766235127490024,
+    "mrr": 0.3415759312320914
+}
