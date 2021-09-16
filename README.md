@@ -10,7 +10,6 @@ This repo benchmarks Approximate Nearest Neighbor algorithms supported by [Faiss
 2. First download the MS-MARCO dataset (in [BeIR](https://github.com/UKPLab/beir) format):
     ```bash
     wget https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/msmarco.zip
-
     unzip msmarco.zip
     ```
 3. Embedd the queries and the documents with the SOTA [TAS-B model](https://arxiv.org/pdf/2104.06967.pdf):
@@ -25,7 +24,7 @@ This repo benchmarks Approximate Nearest Neighbor algorithms supported by [Faiss
     ```bash
     python benchmark.py --eval_string "pq(384, 8)" --embedded_dir=./msmarco-embedded --output_dir=./msmarco-benchmarking
     ```
-    where the `eval_string` defines how to build the Faiss index (please refer to the benchmark.py for more details and benchmark.sh for other experiments).
+    where the `eval_string` defines how to build the Faiss index (please refer to the [benchmark.py](benchmark.py) for more details and [benchmark.sh](benchmark.sh) for other experiments).
 
 ## Pre-computed embedding files & results
 To save the effort of the step 2 and 3, one can also download our pre-computed embedding files:
