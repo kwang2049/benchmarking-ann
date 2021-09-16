@@ -28,6 +28,14 @@ This repo benchmarks Approximate Nearest Neighbor algorithms supported by [Faiss
 
 ## Pre-computed embedding files & results
 To save the effort of the step 2 and 3, one can also download our pre-computed embedding files:
+```bash
+mkdir msmarco-embedded
+cd msmarco-embedded
+wget https://public.ukp.informatik.tu-darmstadt.de/kwang/benchmarking-ann/msmarco-embedded/ids.txt
+wget https://public.ukp.informatik.tu-darmstadt.de/kwang/benchmarking-ann/msmarco-embedded/qrels.json
+wget https://public.ukp.informatik.tu-darmstadt.de/kwang/benchmarking-ann/msmarco-embedded/embeddings.queries.pkl
+wget https://public.ukp.informatik.tu-darmstadt.de/kwang/benchmarking-ann/msmarco-embedded/embeddings.documents.pkl
+```
 
 Results are available at:
 [Benchmarking-ANN Google sheet](https://docs.google.com/spreadsheets/d/19RieebaLXYHjjBu9uEzkF6EFhy-EBVEtMCTHWleESNA/edit?usp=sharing)
