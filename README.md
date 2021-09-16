@@ -1,5 +1,5 @@
 # Benchmarking ANN
-This repo benchmarks Approximate Nearest Neighbor algorithms supported by [Faiss](https://github.com/facebookresearch/faiss for dense text retrieval.
+This repo benchmarks Approximate Nearest Neighbor algorithms supported by [Faiss](https://github.com/facebookresearch/faiss) for dense text retrieval (powered by [SBERT](https://github.com/UKPLab/sentence-transformers)).
 
 ## Usage: Experiments on MS-MARCO
 1. Install Python requirements: ([Faiss](https://github.com/facebookresearch/faiss) & [SBERT](https://github.com/UKPLab/sentence-transformers))
@@ -30,3 +30,6 @@ This repo benchmarks Approximate Nearest Neighbor algorithms supported by [Faiss
 ## Pre-computed embedding files & results
 To save the effort of the step 2 and 3, one can also download our pre-computed embedding files:
 
+Results are available at:
+[Benchmarking-ANN Google sheet](https://docs.google.com/spreadsheets/d/19RieebaLXYHjjBu9uEzkF6EFhy-EBVEtMCTHWleESNA/edit?usp=sharing)
+> Note: The testing computational environment is a shared DGX2 machine. So the time metrics may not be absolutely comparable.
